@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            border: 2px solid black;
+            border-top-color: rebeccapurple;
+            border-bottom-color: brown;
+            border-left-color: rgb(251, 151, 11);
+            border-right-color: chocolate;
+            width: 300px;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <form onsubmit="return validateEmail()">
+            <label>First Name:</label><br>
+            <input type="text" id="fname" placeholder="Enter your first name" required /><br><br>
+
+            <label>Last Name:</label><br>
+            <input type="text" id="lname" placeholder="Enter your last name" required /><br><br>
+
+            <label>Email:</label><br>
+            <input type="text" id="email" placeholder="Enter your email" required /><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" id="pass" placeholder="Enter your password" required /><br><br>
+
+            <input type="submit" value="Register" />
+        </form>
+    </div>
+
+    
+
+</body>
+</html>
